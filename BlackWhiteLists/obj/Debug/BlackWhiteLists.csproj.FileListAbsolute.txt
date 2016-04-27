@@ -1,0 +1,6 @@
+c:\users\vitalyki\documents\visual studio 2012\Projects\BlackWhiteLists\BlackWhiteLists\bin\Debug\BlackWhiteLists.exe.config
+c:\users\vitalyki\documents\visual studio 2012\Projects\BlackWhiteLists\BlackWhiteLists\bin\Debug\BlackWhiteLists.exe
+c:\users\vitalyki\documents\visual studio 2012\Projects\BlackWhiteLists\BlackWhiteLists\bin\Debug\BlackWhiteLists.pdb
+c:\users\vitalyki\documents\visual studio 2012\Projects\BlackWhiteLists\BlackWhiteLists\obj\Debug\BlackWhiteLists.csprojResolveAssemblyReference.cache
+c:\users\vitalyki\documents\visual studio 2012\Projects\BlackWhiteLists\BlackWhiteLists\obj\Debug\BlackWhiteLists.exe
+c:\users\vitalyki\documents\visual studio 2012\Projects\BlackWhiteLists\BlackWhiteLists\obj\Debug\BlackWhiteLists.pdb
