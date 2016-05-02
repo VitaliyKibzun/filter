@@ -11,8 +11,22 @@ namespace BlackWhiteLists
     {
         static void Main(string[] args)
         {
-            Filter filter = new Filter();
-            filter.StartTheProgram();
+            
+
+            ReadWriteData readWriteList = new ReadWriteData();
+
+            List<string> inputList = readWriteList.ReadData("Input.txt");
+            List<string> whiteList = readWriteList.ReadData("WhiteList.txt");
+            List<string> blackList = readWriteList.ReadData("Blacklist.txt");
+
+            Filters filter = new Filters();
+            HashSet<string> fileteredByWhiteList = filter.FilterByWhiteList(inputList, whiteList);
+            HashSet<string> fileteredByBlackList = filter.FilterByBlackList(inputList, blackList);
+            HashSet<string> fileteredByWhiteBlackList = filter.FilterByWhiteBlackList(inputList, whiteList, blackList);
+
+            readWriteList.SaveData(fileteredByWhiteList, "Output_whitelist.txt");
+            readWriteList.SaveData(fileteredByBlackList, "Output_blacklist.txt");
+            readWriteList.SaveData(fileteredByWhiteBlackList, "Output_white_and_blacklist.txt");
         }
     }
 }
